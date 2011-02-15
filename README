@@ -1,0 +1,38 @@
+Motivation
+
+I've quite a number of existing setups and no single one results in exactly
+what I'm after; that said, I don't expect what I do here to be different for
+you, gentle reader.
+
+I'm going to start with a lot of the ideas from,
+
+http://www.enigmacurry.com/2008/05/09/emacs-as-a-powerful-python-ide/
+and,
+http://pedrokroger.net/2010/07/configuring-emacs-as-a-python-ide-2/
+
+from there I'll slim them down to some minimal set.
+
+Also, the Emacs Wiki has a lot of good ideas I'd like to capture on different
+branches as "flavors", if you like.
+
+Major Mode
+
+http://www.loveshack.ukfsn.org/emacs/#python.el
+http://www.loveshack.ukfsn.org/emacs/python.el
+	Major mode for editing Python code. (A version of this is included in
+	Emacs 22, but has assorted problems this one doesn't. It assumes
+	sym-comp.el is loaded and requires emacs.py in Emacs' etc directory, i.e.
+	data-directory.) This works better than the mode distributed with Python,
+	but requires Emacs 22. See python-21.el for use with Emacs 21. Recent
+	changes are listed in NEWS.python. 
+
+http://www.loveshack.ukfsn.org/emacs/emacs.py
+    Auxiliary file for use with python.el.
+	Abstraction of the tags mechanism
+	    Patch for Emacs 22 Etags that provides hooks for language modes to use
+		their own mechanisms for navigating to definitions with M-.
+
+http://www.loveshack.ukfsn.org/emacs/sym-comp.el
+	Abstraction of mode-dependent symbol completion.
+
+
