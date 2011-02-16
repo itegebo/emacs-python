@@ -35,4 +35,5 @@ http://www.loveshack.ukfsn.org/emacs/emacs.py
 http://www.loveshack.ukfsn.org/emacs/sym-comp.el
 	Abstraction of mode-dependent symbol completion.
 
-
+iPython
+	http://ipython.scipy.org/dist/ipython.el
